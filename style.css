@@ -53,60 +53,70 @@ li:hover {
     background-color: azure;
 }
 
-html{
-scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 }
 
-#app{
-width: 100%;
-height: 600px;
-background-color: blueviolet;
+#app {
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
 
 }
 
-.line{
-height: 6px;
-background-color: #000;
-width: 70px;
-margin: 8px auto;
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
 }
 
-#game{
-width= 50%;
-height: 200px;
-background-color: chartreuse;
+#game {
+    width=50%;
+    height: 200px;
+    background-color: chartreuse;
 }
 
-img{
-transition: transform .2s;
+img {
+    transition: transform .2s;
 }
 
-img:hover{
-transform: scale(0.5);
+img:hover {
+    transform: scale(0.5);
 }
 
-#chatbot{
-width= 200%;
-height= 350px;
-background-color: chocolate;
+#chatbot {
+    width=200%;
+    height=350px;
+    background-color: chocolate;
 }
 
-#Contacts{
-background-color: aqua;
+#Contacts {
+    background-color: aqua;
 }
 
-#Inspiration{
-background-color: aquamarine;
+#Inspiration {
+    background-color: aquamarine;
 }
 
-#SongsIKnow{
-background-color: cornflowerblue;
+#SongsIKnow {
+    background-color: cornflowerblue;
 }
 
-#MyFavoritePieces{
-background-color: cadetblue;
+#MyFavoritePieces {
+    background-color: cadetblue;
 }
 
-#About{
-background-color: #4287f5;
+#About {
+    background-color: #4287f5;
 }
+
+#piano: hover{
+transform: scale(.9)
+}
+
+#piano{
+width: 350px;
+height: 400px;
+}
+
