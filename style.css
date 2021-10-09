@@ -6,7 +6,7 @@ head {
 
 body {
     text-align: center;
-    background-image: linear-gradient(to right, #4bc1cc, #3a5ec2);
+    background-image: linear-gradient(to bottom right, #4bc1cc, #3a5ec2);
 }
 
 
@@ -35,8 +35,8 @@ p {
 .menu {
     list-style: none;
     font-family: cursive;
-    float: right;
-    top: 10px;
+    float: center;
+    top: 30px;
     right: 30px;
     cursor: pointer;
     color: black;
@@ -50,7 +50,7 @@ li {
 }
 
 li:hover {
-    background-color: azure;
+    background-color: grey;
 }
 
 html {
@@ -60,13 +60,13 @@ html {
 #app {
     width: 100%;
     height: 600px;
-    background-color: blueviolet;
+    background-color: darkblue;
 
 }
 
 .line {
     height: 6px;
-    background-color: #000;
+    background-color: slategrey;
     width: 70px;
     margin: 8px auto;
 }
@@ -92,7 +92,7 @@ img:hover {
 }
 
 #Contacts {
-    background-color: aqua;
+    background-color: darkturquoise;
 }
 
 #Inspiration {
@@ -120,3 +120,34 @@ width: 350px;
 height: 400px;
 }
 
+.#NB{
+    font-family: "Hawaii" 5-0, sans-serif
+}
+
+.link{
+    float: left;
+    color: grey;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+.main{
+  margin-top: 30px;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: grey;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
